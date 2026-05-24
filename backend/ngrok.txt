@@ -1,0 +1,21 @@
+🟢 1. SOLUÇÃO MAIS FÁCIL (recomendada): usar ngrok
+
+Isso evita firewall, antivírus, IP, tudo.
+
+👉 Passos:
+npm install -g ngrok
+
+Depois:
+
+ngrok http 8000
+
+Ele vai te dar algo tipo:
+
+https://abc123.ngrok-free.app
+🔥 No seu app:
+const BASE = 'https://abc123.ngrok-free.app';
+
+✔ funciona no Expo Go
+✔ ignora firewall
+✔ ignora antivírus
+✔ não precisa IP local
